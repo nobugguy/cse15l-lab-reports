@@ -55,7 +55,7 @@ After exiting the remote server, We can then run the file on our computer to see
 
 As we can see, the followings are print out:
 
-> My system(MacOS), My usename(justinlong) Location of my User fileCurrent Working directory
+> My system(MacOS), My usename(justinlong), Location of my User file, Current Working directory
 
 let's try secure copy it to the remote server and run it on the server.
 
