@@ -1,6 +1,6 @@
 **Welcome to CSE 15L!**
 
-> I'm Yunfan long, a sophomore majoring in Data Science in Warren College at UCSD.
+> I'm Yunfan Long, a sophomore majoring in Data Science in Warren College at UCSD.
 
 *Here we'll explore various labs*
 * to help you suceed in your actual programming process.
