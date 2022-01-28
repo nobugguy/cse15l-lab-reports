@@ -1,13 +1,17 @@
-1: **Install VS Code**
+# 1: Install VS Code
 
-First, we need to download VS code. Just google it! After that, left click download. 
+First, we need to download VS code. Just click the link below! 
+
+[VScode Download Link](https://code.visualstudio.com/download)
+
+After that, left click download. 
 ![image](google.png)
 After that, you can select whichever option that fits your device, and click download button.
 ![image](select.png)
 After that, we got the VS code installed!
 ![image](VScode.png)
 
-2: **Remotely Connecting**
+# 2: Remotely Connecting
 
 Second, we should connect to the remote server.
 
@@ -21,7 +25,7 @@ Then the password will pop out. Enter the corerrect password and then you will b
 
 Notice that the username changes from my user name Justin to the school remote server name s15lwi22aue@ieng6, this means we're currently using the remote server.
 
-3: **Run Some Commands**
+# 3: Run Some Commands
 
 ![image](operations.png)
 
@@ -40,7 +44,7 @@ this command is used to list all non-hidden files
 
 this command is used to list all files, including hidden ones.
 
-4: **Moving Files over SSH with scp**
+# 4: Moving Files over SSH with scp
 
 Create a new file called WhereAmI.java in your computer.
 You can do this by clicking the icon "new file" at top left corner.
@@ -65,7 +69,7 @@ let's try secure copy it to the remote server and run it on the server.
 > Difference: Instead of MacOS, we found it ow running on Linux with the online account name as use name
 
 
-5: **Setting an SSH key**
+# 5: Setting an SSH key
 ```
 > ssh-keygen
 ```
@@ -79,7 +83,7 @@ To avoid entering password every single time.
 
 > Now we can log in supper quickly without needing to enter password every time!
 
-6: **Optimizing Remote Running**
+# 6: Optimizing Remote Running
 
 > Utilizing semicolon to group commands together and using quotes to directly run on remote server and then exit, we can make remote running even more efficient!
 
