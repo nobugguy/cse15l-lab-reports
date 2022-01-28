@@ -19,13 +19,10 @@ This is obviously not the output we would want, because this a image output inst
 As you can see in the screenshot below:
 
 >  The failure inducing input is a combination of an image and a link.
-
 ```
 ![image](image.png)
 [link](google.com)
 ```
-
-
 > The symptom here is that the program does not give us the expected output because of the bug in the getlinks() method in MarkedownParse.java, which makes our program collect the image input when it is only supposed to get link input. 
 
 
@@ -51,7 +48,6 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, e
 ```
 [link]google.com
 ```
-
 >The symptom here is that the program terminatd due to StringIndexOutOfBoundsException raised due to the bug in line 22 in the getlinks() method in MarkedownParse.java. The indexOf() method returns -1 because it couldn't find a parenthesis. As a result, the substring is from 0 to -1, which is impossible and cause the exception. 
 
 # Code Change 3
