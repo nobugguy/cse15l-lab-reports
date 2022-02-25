@@ -8,23 +8,23 @@ Link to the markdown-parse repository reviewed by my group:
 
 **Snippet 1**
 
-1. Expected Output
+1: Expected Output
 
 ```
 [`google.com, "google.com, ucsd.edu]
 ```
 
-2. My Test for Snippet One
+2: My Test for Snippet One
 
 ![image](Test1.png)
 
-3. Test Result for my Markdownparse
+3: Test Result for my Markdownparse
 
 > The test didn't pass.
 
 ![image](Result1.png)
 
-4. Test result for reviewed MarkdownParse
+4: Test result for reviewed MarkdownParse
 
 > The test didn't pass.
 
@@ -33,23 +33,23 @@ Link to the markdown-parse repository reviewed by my group:
 
 **Snippet 2**
 
-1. Expected Output
+1: Expected Output
 
 ```
 [a.com, a.com(()), example.com]
 ```
 
-2. My Test for Snippet 2
+2: My Test for Snippet 2
 
 ![image](Test2.png)
 
-3. Test Result for my Markdownparse
+3: Test Result for my Markdownparse
 
 > The test didn't pass.
 
 ![image](Result2.png)
 
-4. Test result for reviewed MarkdownParse
+4: Test result for reviewed MarkdownParse
 
 > The test didn't pass.
 
@@ -58,23 +58,23 @@ Link to the markdown-parse repository reviewed by my group:
 
 **Snippet 3**
 
-1. Expected Output
+1: Expected Output
 
 ```
 [https://ucsd-cse15l-w22.github.io/]
 ```
 
-2. My Test for Snippet 3
+2: My Test for Snippet 3
 
 ![image](Test3.png)
 
-3. Test Result for my Markdownparse
+3: Test Result for my Markdownparse
 
 > The test didn't pass.
 
 ![image](Result3.png)
 
-4. Test result for reviewed MarkdownParse
+4: Test result for reviewed MarkdownParse
 > The test didn't pass.
 
 ![image](Revopt3.png)
