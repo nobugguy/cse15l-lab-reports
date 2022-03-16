@@ -32,6 +32,12 @@ In comparison, my output missed a close parenthesis at the end:
 
 > My code is wrong because I don't check for the cases when the link has multiple parenthesis inside the link, which only detects the first close parenthesis it encounters and indentifies it as the actual end. 
 
+As you can see in the following code:
+
+![image](bug.png)
+
+Only the segment between the first open-parenthesis and the first close parenthesis was included, which caused the bug to occur.
+
 **2: Test 495**
 
 The public output is correct, which should be:
@@ -47,3 +53,8 @@ In comparison, my output missed two close parenthesis at the end:
 ```
 > My code is incorrect because it does not account for the circumstances where a link has several parenthesis, as it simply detects the first close parenthesis it meets and recognizes it as the end.
 
+As you can see in the following code:
+
+![image](bug.png)
+
+Only the segment between the first open-parenthesis and the first close parenthesis was included, which caused the bug to occur.
